@@ -20,8 +20,8 @@ int main()
     string S1,S2;
     cin>>S1>>S2;
     
-    int m=S1.size();
-    int n=S2.size();
+    int n=S1.size();
+    int m=S2.size();
     
     int count=0;
     cout<<longestCommonSubstr(S1,S2,n,m,count);
